@@ -965,9 +965,12 @@ textarea:focus {
   /* Modal Mobile Menu */
 
   .js-menu-container.is-open {
+    position: relative;
+    top: 0;
+    left: 0;
     display: flex;
-    flex-direction: column;
-    position: fixed;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     padding: 48px 40px;
@@ -988,6 +991,9 @@ textarea:focus {
     cursor: pointer;
     padding: 6px;
     transition: fill var(--transition);
+  }
+
+  .content-js-menu-container {
   }
 
   .js-close-menu:hover {
