@@ -992,10 +992,10 @@ textarea:focus {
     padding: 6px;
     transition: fill var(--transition);
   }
-
   .content-js-menu-container {
+    width: 490px;
+    height: 796px;
   }
-
   .js-close-menu:hover {
     fill: var(--link-activ-color);
   }
