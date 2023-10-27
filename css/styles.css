@@ -1101,7 +1101,7 @@ textarea:focus {
   /* General */
 
   .container {
-    width: 428px;
+    width: 100%;
   }
   /* Navigation */
 
@@ -1177,9 +1177,9 @@ textarea:focus {
     align-content: center;
   }
   .icon-about-section {
-    width: 450px;
-    height: 120px;
-    padding: 25px 190px;
+    height: 130px;
+    padding: 15px 100px;
+    width: 100%;
   }
 
   .about-section-list {
@@ -1193,27 +1193,27 @@ textarea:focus {
 
   /* Team Section */
   .img-card-item-1 {
-    width: 450px;
+    width: 100%;
     height: 460px;
-    background-size: 450px 460px;
+    background-size: 100% 460px;
     background-image: url("../images/team-img-1-m.jpg");
   }
   .img-card-item-2 {
-    width: 450px;
+    width: 100%;
     height: 460px;
-    background-size: 450px 460px;
+    background-size: 100% 460px;
     background-image: url("../images/team-img-2-m.jpg");
   }
   .img-card-item-3 {
-    width: 450px;
+    width: 100%;
     height: 460px;
-    background-size: 450px 460px;
+    background-size: 100% 460px;
     background-image: url("../images/team-img-3-m.jpg");
   }
   .img-card-item-4 {
-    width: 450px;
+    width: 100%;
     height: 460px;
-    background-size: 450px 460px;
+    background-size: 100% 460px;
     background-image: url("../images/team-img-4-m.jpg");
   }
 
@@ -1251,15 +1251,16 @@ textarea:focus {
     align-items: center;
     justify-content: center;
     padding: 0;
+    width: 100%;
   }
 
   .team-section-container .team-list .card-item {
-    width: 450px;
+    width: 90%;
     height: 622px;
   }
 
   .card-item img {
-    width: 450px;
+    width: 100%;
   }
 
   .about-person-team {
@@ -1310,8 +1311,7 @@ textarea:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 15px;
     height: auto;
     gap: 60px;
   }
@@ -1362,6 +1362,7 @@ textarea:focus {
     flex-direction: column;
     align-items: center;
     height: auto;
+    width: 100%;
   }
 
   .input-subscribe {
@@ -1369,10 +1370,11 @@ textarea:focus {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    width: 100%;
   }
 
   .input-subscribe input {
-    width: 450px;
+    width: 80%;
     height: 50px;
   }
 
@@ -1618,7 +1620,7 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 0;
+    padding: 60px 0px;
     height: 464px;
     gap: 93px;
   }
