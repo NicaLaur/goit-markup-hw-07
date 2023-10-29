@@ -1414,7 +1414,7 @@ textarea:focus {
     position: absolute;
     width: 15px;
     height: 15px;
-    top: 4px;
+    top: 2px;
     left: 0;
   }
   .submit-button {
