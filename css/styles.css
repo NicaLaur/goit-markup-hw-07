@@ -1412,8 +1412,8 @@ textarea:focus {
 
   .checkbox-container svg {
     position: absolute;
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     top: 6px;
     left: 0;
   }
